@@ -112,6 +112,7 @@ module VaultCookbook
           when '0.6.0' then 'ac86de0e90a82ef826c5670be159122a629f74596e4901a3e059cab4650dff4c'
           when '0.6.1' then '3e17fe720ce6d9d19b0f19000865a5e033a7d3dca106b867e348d9ae6f3b827a'
           when '0.6.2' then '03947fd6cf3f67c3f40da2486661851b7ffa3b9a8c5957904c32c918aae4c9fb'
+          when '0.6.3' then '61cffd444bae4e9b8c5c5aa6bba3d4dc9bf6879730295302436be6a996d238f8'
           end
         when 'darwin-amd64'
           case resource.version
@@ -128,6 +129,7 @@ module VaultCookbook
           when '0.6.0' then '75a884f3f209f2fdd942fc4b5c80a611c58380ccf249f6dc4d3b1c35373d87b2'
           when '0.6.1' then 'a2daa1f8669899296c193347664f97e4acec97d298ebac489b60a03dae8aca4d'
           when '0.6.2' then 'b5e6fadfed6a5226d96714f5ddcf7e042f3424d7489875af125543c967a706b7'
+          when '0.6.3' then 'dc1d97e403177f8cfeee20cac83a2b323cafa80f67bbb048df879ab2a4fdd616'
           end
         when 'freebsd-i386'
           case resource.version
@@ -136,6 +138,7 @@ module VaultCookbook
           when '0.6.0' then 'bac35e72777929db08218c04f0723a30e2e5c0bfbb50cebd4fb9bc5314ddcc0a'
           when '0.6.1' then '843f72d7fa75c951e24c2da33f4ec7e49096f494d4622970bf46702046ac3704'
           when '0.6.2' then '462a40d7a99f20fa831a0663a5172ea84576bdab8d78bc5f8102099fd31561c5'
+          when '0.6.3' then '82634a91e494df37ef1509381a859ff1b8c3bd5e3564b3917a53964f7bed27e2'
           end
         when 'freebsd-amd64'
           case resource.version
@@ -184,6 +187,7 @@ module VaultCookbook
           when '0.6.0' then '283b4f591da8a4bf92067bf9ff5b70249f20705cc963bea96ecaf032911f27c2'
           when '0.6.1' then '4f248214e4e71da68a166de60cc0c1485b194f4a2197da641187b745c8d5b8be'
           when '0.6.2' then '91432c812b1264306f8d1ecf7dd237c3d7a8b2b6aebf4f887e487c4e7f69338c'
+          when '0.6.4' then '04d87dd553aed59f3fe316222217a8d8777f40115a115dac4d88fac1611c51a6'
           end
         when 'linux-arm'
           case resource.version
